@@ -5,7 +5,7 @@
 - haptic feedback
 - rotation
 - shake
-- notifications (melting alerts?)
+- notifications (melting alerts?) - is it possible to get temperature of iphone
 - connect with footstep counter?
 - mic / video?
 - touch to taste (figuratively)
