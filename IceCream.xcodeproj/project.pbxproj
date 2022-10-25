@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5599674529079E5F00065567 /* IceCreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599674429079E5F00065567 /* IceCreamApp.swift */; };
+		5599674729079E5F00065567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599674629079E5F00065567 /* ContentView.swift */; };
+		5599674929079E6000065567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5599674829079E6000065567 /* Assets.xcassets */; };
+		5599674D29079E6000065567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5599674C29079E6000065567 /* Preview Assets.xcassets */; };
+		5599675729079E6000065567 /* IceCreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599675629079E6000065567 /* IceCreamTests.swift */; };
+		5599676129079E6000065567 /* IceCreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599676029079E6000065567 /* IceCreamUITests.swift */; };
+		5599676329079E6000065567 /* IceCreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599676229079E6000065567 /* IceCreamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5599675329079E6000065567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5599673929079E5F00065567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5599674029079E5F00065567;
+			remoteInfo = IceCream;
+		};
+		5599675D29079E6000065567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5599673929079E5F00065567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5599674029079E5F00065567;
+			remoteInfo = IceCream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5599674129079E5F00065567 /* IceCream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599674429079E5F00065567 /* IceCreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamApp.swift; sourceTree = "<group>"; };
+		5599674629079E5F00065567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5599674829079E6000065567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5599674A29079E6000065567 /* IceCream.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IceCream.entitlements; sourceTree = "<group>"; };
+		5599674C29079E6000065567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5599675229079E6000065567 /* IceCreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599675629079E6000065567 /* IceCreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamTests.swift; sourceTree = "<group>"; };
+		5599675C29079E6000065567 /* IceCreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599676029079E6000065567 /* IceCreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamUITests.swift; sourceTree = "<group>"; };
+		5599676229079E6000065567 /* IceCreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5599673E29079E5F00065567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599674F29079E6000065567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599675929079E6000065567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5599673829079E5F00065567 = {
+			isa = PBXGroup;
+			children = (
+				5599674329079E5F00065567 /* IceCream */,
+				5599675529079E6000065567 /* IceCreamTests */,
+				5599675F29079E6000065567 /* IceCreamUITests */,
+				5599674229079E5F00065567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5599674229079E5F00065567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5599674129079E5F00065567 /* IceCream.app */,
+				5599675229079E6000065567 /* IceCreamTests.xctest */,
+				5599675C29079E6000065567 /* IceCreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5599674329079E5F00065567 /* IceCream */ = {
+			isa = PBXGroup;
+			children = (
+				5599674429079E5F00065567 /* IceCreamApp.swift */,
+				5599674629079E5F00065567 /* ContentView.swift */,
+				5599674829079E6000065567 /* Assets.xcassets */,
+				5599674A29079E6000065567 /* IceCream.entitlements */,
+				5599674B29079E6000065567 /* Preview Content */,
+			);
+			path = IceCream;
+			sourceTree = "<group>";
+		};
+		5599674B29079E6000065567 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5599674C29079E6000065567 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5599675529079E6000065567 /* IceCreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				5599675629079E6000065567 /* IceCreamTests.swift */,
+			);
+			path = IceCreamTests;
+			sourceTree = "<group>";
+		};
+		5599675F29079E6000065567 /* IceCreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5599676029079E6000065567 /* IceCreamUITests.swift */,
+				5599676229079E6000065567 /* IceCreamUITestsLaunchTests.swift */,
+			);
+			path = IceCreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5599674029079E5F00065567 /* IceCream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599676629079E6000065567 /* Build configuration list for PBXNativeTarget "IceCream" */;
+			buildPhases = (
+				5599673D29079E5F00065567 /* Sources */,
+				5599673E29079E5F00065567 /* Frameworks */,
+				5599673F29079E5F00065567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceCream;
+			productName = IceCream;
+			productReference = 5599674129079E5F00065567 /* IceCream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5599675129079E6000065567 /* IceCreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599676929079E6000065567 /* Build configuration list for PBXNativeTarget "IceCreamTests" */;
+			buildPhases = (
+				5599674E29079E6000065567 /* Sources */,
+				5599674F29079E6000065567 /* Frameworks */,
+				5599675029079E6000065567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5599675429079E6000065567 /* PBXTargetDependency */,
+			);
+			name = IceCreamTests;
+			productName = IceCreamTests;
+			productReference = 5599675229079E6000065567 /* IceCreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5599675B29079E6000065567 /* IceCreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599676C29079E6000065567 /* Build configuration list for PBXNativeTarget "IceCreamUITests" */;
+			buildPhases = (
+				5599675829079E6000065567 /* Sources */,
+				5599675929079E6000065567 /* Frameworks */,
+				5599675A29079E6000065567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5599675E29079E6000065567 /* PBXTargetDependency */,
+			);
+			name = IceCreamUITests;
+			productName = IceCreamUITests;
+			productReference = 5599675C29079E6000065567 /* IceCreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5599673929079E5F00065567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5599674029079E5F00065567 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					5599675129079E6000065567 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5599674029079E5F00065567;
+					};
+					5599675B29079E6000065567 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5599674029079E5F00065567;
+					};
+				};
+			};
+			buildConfigurationList = 5599673C29079E5F00065567 /* Build configuration list for PBXProject "IceCream" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5599673829079E5F00065567;
+			productRefGroup = 5599674229079E5F00065567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5599674029079E5F00065567 /* IceCream */,
+				5599675129079E6000065567 /* IceCreamTests */,
+				5599675B29079E6000065567 /* IceCreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5599673F29079E5F00065567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599674D29079E6000065567 /* Preview Assets.xcassets in Resources */,
+				5599674929079E6000065567 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599675029079E6000065567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599675A29079E6000065567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5599673D29079E5F00065567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599674729079E5F00065567 /* ContentView.swift in Sources */,
+				5599674529079E5F00065567 /* IceCreamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599674E29079E6000065567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599675729079E6000065567 /* IceCreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599675829079E6000065567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599676329079E6000065567 /* IceCreamUITestsLaunchTests.swift in Sources */,
+				5599676129079E6000065567 /* IceCreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5599675429079E6000065567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5599674029079E5F00065567 /* IceCream */;
+			targetProxy = 5599675329079E6000065567 /* PBXContainerItemProxy */;
+		};
+		5599675E29079E6000065567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5599674029079E5F00065567 /* IceCream */;
+			targetProxy = 5599675D29079E6000065567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5599676429079E6000065567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5599676529079E6000065567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5599676729079E6000065567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IceCream/IceCream.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IceCream/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yum.IceCream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5599676829079E6000065567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IceCream/IceCream.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IceCream/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yum.IceCream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5599676A29079E6000065567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yum.IceCreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceCream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IceCream";
+			};
+			name = Debug;
+		};
+		5599676B29079E6000065567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yum.IceCreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceCream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IceCream";
+			};
+			name = Release;
+		};
+		5599676D29079E6000065567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yum.IceCreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IceCream;
+			};
+			name = Debug;
+		};
+		5599676E29079E6000065567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yum.IceCreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IceCream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5599673C29079E5F00065567 /* Build configuration list for PBXProject "IceCream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599676429079E6000065567 /* Debug */,
+				5599676529079E6000065567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599676629079E6000065567 /* Build configuration list for PBXNativeTarget "IceCream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599676729079E6000065567 /* Debug */,
+				5599676829079E6000065567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599676929079E6000065567 /* Build configuration list for PBXNativeTarget "IceCreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599676A29079E6000065567 /* Debug */,
+				5599676B29079E6000065567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599676C29079E6000065567 /* Build configuration list for PBXNativeTarget "IceCreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599676D29079E6000065567 /* Debug */,
+				5599676E29079E6000065567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5599673929079E5F00065567 /* Project object */;
+}
